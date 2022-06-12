@@ -1,0 +1,87 @@
+* {
+    border: 0%;
+    margin: 0%;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+body {
+     height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    background-image: url("../images/Model 3.jpeg");
+    
+}
+
+
+.name {
+    font-size: 0.6cm;
+    text-align: center;
+    z-index: 1;
+    
+}
+
+.name h1 {
+    padding-top: 14vh;
+    z-index: 1;
+}
+
+.Buttons {
+    padding-top: 65vh;
+    justify-items:center;
+    @media (max-width: 768px) {
+        flex-direction:column;
+    }
+    
+    
+}
+.left{
+    background: rgb(216, 50, 50);
+    color: white;
+    padding: 9px 60px;
+    font-size:larger;
+    border-radius: 30px;
+    cursor: pointer;
+    border-style: none;
+    
+    align-items: center;
+    justify-content: center;
+}
+.left:hover{
+    background:rgb(160, 7, 7); 
+    transition: 0.5s;
+}
+.right{
+    margin-left: 1cm;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 9px 60px;
+    font-size:larger;
+    border-radius: 30px;
+    cursor: pointer;
+    border-style: none;
+    
+}
+.right:hover{
+    background:rgb(220, 216, 216); 
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+    
+}
+
+@keyframes animateDown{
+    0%, 20%, 50%, 80%, 100%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(5px);
+    }
+
+    60%{
+        transform: translateY(3px);
+    }
+    
+}

@@ -1,0 +1,90 @@
+.nav img {
+    background-color: transparent;
+    height: 70px;
+    width: 4cm;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding: 4px 40px 50px;
+    padding-top: 20px;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.close {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+
+}
+
+.centerMenu {
+
+    display: flex;
+    padding-right: 2cm;
+    justify-content: center;
+    padding-top: 20px;
+
+
+
+
+
+}
+
+.centerMenu p {
+    flex-wrap: nowrap;
+    padding: 0 20px;
+
+}
+
+body {
+    z-index: 1;
+}
+
+.rightMenu {
+    display: flex;
+    
+    justify-content: right;
+
+    align-items: center;
+    cursor: pointer;
+    padding-top: 50px;
+    position: fixed;
+    padding-left: 40cm;
+}
+
+.rightMenu p a {
+    padding: 20px;
+}
+
+.sidemenu {
+    cursor: default;
+    list-style: none;
+    position: fixed;
+    background: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    font-size: x-large;
+    z-index: 16;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    text-align: start;
+    justify-content: flex-start;
+}
+
+.sidemenu li {
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
